@@ -294,7 +294,7 @@ a:hover {
 
 .navbar-brand {
     height: auto;
-    padding: 3px 15px;
+    padding: 3px 3px;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
@@ -1039,4 +1039,12 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+/* CSS additionnel */
+
+.bloc-texte-1 {
+    max-width: 60rem;
+    margin: auto;
+}
+
 }
