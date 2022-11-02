@@ -1047,4 +1047,11 @@ h4 {
     margin: auto;
 }
 
+.bloc-texte-2 {
+    size: 16px;
+}
+
+.auteur {
+    size: 18px;
+}
 }
