@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -677,7 +677,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .tight-width-whitespace {
@@ -723,7 +724,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #F3976C!important;
 }
 
 h4 {
@@ -775,12 +776,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #272727!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1028,6 +1029,37 @@ h4 {
     }
 }
 
+.bloc-texte-1 {
+    max-width: 60rem;
+    margin: auto;
+}
+
+.bloc-texte-2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.citation {
+    max-width: 50rem;
+    margin: auto;
+}
+
+.citation span {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.citation p {
+    font-size: 18px;
+    font-family: helvetica;
+    margin-top: 10px;
+}
+
+.black {
+    color: black;
+}
+
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
@@ -1042,16 +1074,5 @@ h4 {
 
 /* CSS additionnel */
 
-.bloc-texte-1 {
-    max-width: 60rem;
-    margin: auto;
-}
 
-.bloc-texte-2 {
-    size: 16px;
-}
-
-.auteur {
-    size: 18px;
-}
 }
