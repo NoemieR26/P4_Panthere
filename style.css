@@ -399,6 +399,13 @@ a:hover {
     color: #F3976C; 
 }
 
+.img-responsive {
+    display: flex;
+    align-content: center;
+    height: 270px;
+    width: 270px;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -569,8 +576,9 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 a[data-lightbox]:hover::before {
@@ -1057,12 +1065,20 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+    .citation {
+        max-width: 25rem;
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .citation {
+        max-width: 15rem;
     }
 }
 
